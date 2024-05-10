@@ -35,7 +35,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS sellers (
             )''')
 
 # Создание бота
-bot = Bot(token='7028908084:AAHe6UTnNIEKrBhW13dLIVjB0_tkcnMw4P0')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
